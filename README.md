@@ -48,38 +48,46 @@ The original dataset had randomly assigned career labels with no learnable patte
 
 ##  Tech Stack
 
-   Category                 Tools 
-| Machine Learning | Python, Scikit-learn, XGBoost |
-| Deep Learning | TensorFlow, Keras |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Web Application | Streamlit |
-| Deployment | GitHub, Streamlit Cloud |
-| Development | VS Code, Jupyter Notebook |
+- **Machine Learning** — Python, Scikit-learn, XGBoost
+- **Deep Learning** — TensorFlow, Keras
+- **Data Processing** — Pandas, NumPy
+- **Visualization** — Matplotlib, Seaborn
+- **Web Application** — Streamlit
+- **Deployment** — GitHub, Streamlit Cloud
+- **Development** — VS Code, Jupyter Notebook
 
 
+---
 
 ##  Project Structure
 
-
+```
 CareerCompass/
+│
 ├── app/
-│   └── app.py                  → Streamlit web application
+│   └── app.py                    → Streamlit web application
+│
 ├── data/
-│   └── PS2_Dataset.csv         → Dataset (6,901 student records)
+│   └── PS2_Dataset.csv           → Dataset (6,901 student records)
+│
 ├── models/
-│   ├── best_model.pkl          → Trained XGBoost model
-│   ├── encoders.pkl            → Feature encoders
-│   ├── feature_columns.pkl     → Column order for predictions
-│   ├── dl_model.keras          → Neural Network model
-│   └── scaler.pkl              → StandardScaler for DL input
+│   ├── best_model.pkl            → Trained XGBoost model
+│   ├── encoders.pkl              → Feature encoders
+│   ├── feature_columns.pkl       → Column order for predictions
+│   ├── dl_model.keras            → Neural Network model
+│   └── scaler.pkl                → StandardScaler for DL input
+│
 ├── notebooks/
-│   ├── 01_EDA.ipynb            → Exploratory Data Analysis
-│   ├── 02_Preprocessing.ipynb  → Data encoding & preprocessing
-│   ├── 03_ML_Models.ipynb      → ML model training & evaluation
-│   └── 04_DL_Model.ipynb       → Deep Learning model
-└── requirements.txt            → Project dependencies
+│   ├── 01_EDA.ipynb              → Exploratory Data Analysis
+│   ├── 02_Preprocessing.ipynb    → Data encoding & preprocessing
+│   ├── 03_ML_Models.ipynb        → ML model training & evaluation
+│   └── 04_DL_Model.ipynb         → Deep Learning model
+│
+└── requirements.txt              → Project dependencies
+```
 
+
+---
 
 ##  Dataset
 
